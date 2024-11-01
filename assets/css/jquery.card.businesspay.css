@@ -1,0 +1,134 @@
+.jp-card-container {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+.jp-card{
+    max-width: 100%;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75) !important;
+}
+
+.jp-card .jp-card-front, .jp-card .jp-card-back {
+    background: #a56070 !important; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #a56070 0%, #ab2849 100%) !important; /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #a56070 0%,#ab2849 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #a56070 0%,#ab2849 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a56070', endColorstr='#ab2849',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+}
+
+.jp-card .jp-card-back .jp-card-shiny:after{
+    content: "Este cartão é uma simulação de um cartão de crédito verdadeiro criado para facilitar a inserção das informações pelo usuário de forma segura." !important;
+}
+
+.jp-card .jp-card-back .jp-card-shiny, .jp-card .jp-card-back .jp-card-shiny:before{
+    background: transparent !important;
+}
+
+.jp-card .jp-card-front .jp-card-shiny:before {
+    background: #eccd7e !important;
+}
+
+.jp-card .jp-card-front .jp-card-shiny{
+    background: #a2682a !important; /* Old browsers */
+    background: -moz-linear-gradient(top, #a2682a 0%, #be8c3c 7%, #be8c3c 16%, #d3b15f 24%, #faf0a0 29%, #ffffc2 37%, #faf0a0 44%, #d3b15f 51%, #be8c3c 60%, #b17b32 70%, #bb8332 78%, #d4a245 84%, #e1b453 91%, #a4692a 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a2682a 0%,#be8c3c 7%,#be8c3c 16%,#d3b15f 24%,#faf0a0 29%,#ffffc2 37%,#faf0a0 44%,#d3b15f 51%,#be8c3c 60%,#b17b32 70%,#bb8332 78%,#d4a245 84%,#e1b453 91%,#a4692a 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a2682a 0%,#be8c3c 7%,#be8c3c 16%,#d3b15f 24%,#faf0a0 29%,#ffffc2 37%,#faf0a0 44%,#d3b15f 51%,#be8c3c 60%,#b17b32 70%,#bb8332 78%,#d4a245 84%,#e1b453 91%,#a4692a 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2682a', endColorstr='#a4692a',GradientType=0 ) !important; /* IE6-9 */
+}
+
+@media (max-width: 349px){
+    .jp-card-container,
+    .jp-card.jp-card-identified .jp-card-front:before,
+    .jp-card.jp-card-identified .jp-card-back:before,
+    .jp-card.jp-card-identified .jp-card-front .jp-card-logo,
+    .jp-card.jp-card-identified .jp-card-back .jp-card-logo,
+    .jp-card .jp-card-front .jp-card-lower .jp-card-number,
+    .jp-card .jp-card-front .jp-card-lower .jp-card-name{
+        zoom: 0.65 !important;
+        -moz-transform: scale(0.65) !important;
+    }
+
+    .jp-card-logo {
+        height: 36px !important;
+        width: 70px !important;
+    }
+
+    .jp-card .jp-card-front .jp-card-lower .jp-card-expiry{
+        font-size: 12px !important;
+    }
+
+    .jp-card-logo.jp-card-mastercard {
+        font-size: 9px !important;
+        line-height: 100px !important;
+    }
+
+    .jp-card-logo.jp-card-mastercard:before, .jp-card-logo.jp-card-mastercard:after {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 400px){
+    .jp-card-container,
+    .jp-card.jp-card-identified .jp-card-front:before,
+    .jp-card.jp-card-identified .jp-card-back:before,
+    .jp-card.jp-card-identified .jp-card-front .jp-card-logo,
+    .jp-card.jp-card-identified .jp-card-back .jp-card-logo,
+    .jp-card .jp-card-front .jp-card-lower .jp-card-number,
+    .jp-card .jp-card-front .jp-card-lower .jp-card-name{
+        zoom: 0.7 !important;
+        -moz-transform: scale(0.7) !important;
+    }
+
+    .jp-card .jp-card-front .jp-card-lower .jp-card-expiry{
+        font-size: 12px !important;
+    }
+
+    .jp-card-logo {
+        height: 36px !important;
+        width: 70px !important;
+    }
+
+    .jp-card .jp-card-front .jp-card-lower .jp-card-expiry{
+        font-size: 12px !important;
+    }
+
+    .jp-card-logo.jp-card-mastercard {
+        font-size: 9px !important;
+        line-height: 100px !important;
+    }
+
+    .jp-card-logo.jp-card-mastercard:before, .jp-card-logo.jp-card-mastercard:after {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+    .jp-card-container,
+    .jp-card.jp-card-identified .jp-card-front:before,
+    .jp-card.jp-card-identified .jp-card-back:before,
+    .jp-card.jp-card-identified .jp-card-front .jp-card-logo,
+    .jp-card.jp-card-identified .jp-card-back .jp-card-logo,
+    .jp-card .jp-card-front .jp-card-lower .jp-card-number,
+    .jp-card .jp-card-front .jp-card-lower .jp-card-name {
+        zoom: 0.7 !important;
+        -moz-transform: scale(0.7) !important;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 450px), (min-width: 801px) and (max-width: 1070px){
+    .jp-card-container,
+    .jp-card.jp-card-identified .jp-card-front:before,
+    .jp-card.jp-card-identified .jp-card-back:before,
+    .jp-card.jp-card-identified .jp-card-front .jp-card-logo,
+    .jp-card.jp-card-identified .jp-card-back .jp-card-logo,
+    .jp-card .jp-card-front .jp-card-lower .jp-card-number,
+    .jp-card .jp-card-front .jp-card-lower .jp-card-name{
+        zoom: 0.8 !important;
+        -moz-transform: scale(0.8) !important;
+    }
+}
